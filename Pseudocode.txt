@@ -1,0 +1,30 @@
+choose a random word
+build a hidden word
+set penalty to 0
+
+repeat the game:
+    display the hidden word
+    display the number of penalty
+
+    let player input a letter
+
+    if player input a letter:
+        if answer include the word:
+            display the place of the letter
+        else:
+            add 1 penalty
+
+    else:
+        if the word is correct:
+            player win
+            end the game
+        else:
+            add 5 penalty
+    
+    if all letter are found:
+        player win
+        end the game
+
+    if penalties are more than 12:
+        palyer lose
+        end the game
